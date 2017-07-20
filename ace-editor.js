@@ -91,7 +91,7 @@ var aceEditor = function () {
   }, {
     key: 'setContent',
     value: function setContent(content) {
-      this.Ace.setValue(content, 1);
+      this.Ace.setValue(content, -1);
     }
 
     /**
@@ -103,7 +103,7 @@ var aceEditor = function () {
   }, {
     key: 'appendContent',
     value: function appendContent(content) {
-      this.Ace.setValue(this.Ace.getValue() + ' ' + content, 1);
+      this.Ace.setValue(this.Ace.getValue() + ' ' + content, -1);
     }
 
     /**

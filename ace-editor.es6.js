@@ -72,7 +72,7 @@ class aceEditor {
    *  {string} content Content that will override the current content
    **/
   setContent (content) {
-    this.Ace.setValue(content, 1)
+    this.Ace.setValue(content, -1)
   }
 
   /**
@@ -81,7 +81,7 @@ class aceEditor {
    *  {string} content Content that will be appended to the after the current content
    **/
   appendContent (content) {
-    this.Ace.setValue(this.Ace.getValue() + ' ' + content, 1)
+    this.Ace.setValue(this.Ace.getValue() + ' ' + content, -1)
   }
 
   /**
