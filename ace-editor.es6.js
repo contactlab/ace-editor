@@ -1,7 +1,10 @@
 'use strict'
 
-const Polymer = window.Polymer
-const CustomEvent = window.CustomEvent
+import 'polymer-lib-loader';
+import './ace-editor.html';
+
+const Polymer = window.Polymer;
+const CustomEvent = window.CustomEvent;
 
 class aceEditor {
   // Define behaviors with a getter.
