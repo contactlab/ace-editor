@@ -1,4 +1,4 @@
-# `<ace-editor>` Polymer (ES6)
+# `<ace-editor>` Polymer (ES6) - :warning: Deprecated
 
 [![Build status](https://travis-ci.org/LasaleFamine/ace-editor.svg?branch=master)](https://travis-ci.org/LasaleFamine/ace-editor)
 [![Bower version](https://badge.fury.io/bo/polymer-ace-editor.svg)](https://badge.fury.io/bo/polymer-ace-editor)
